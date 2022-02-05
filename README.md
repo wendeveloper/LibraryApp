@@ -1,0 +1,22 @@
+library application 
+When program runs:
+- Creates instance of LibraryApp.
+- LibraryApp initializes itself creating an instance of BookRepository.
+- BookRepository initializes itself instantiation an array list of books in the constructor.
+- Main asks LibraryApp to search Isbn by calling searchByIsbn() method and passing a string.
+- This method will print some information to the user
+- It'll then call bookRepo.findByIsbn() method passing in the isbn string.
+- BookRepository uses foreach loop that iterates over the list of books in array
+- Checks if the book's Isbn is equal to the Isban that was passed into the method.
+- Returns book if true
+- LibraryApp takes the return in a variable and then checks if the book is null
+- If book not null, it prints out book details.
+  - Title
+  - Genre
+  - Author
+- Each search goes as follows: 
+- Main 
+- to LibraryApp
+- to BookRepository
+- to Library App
+- back to Main
