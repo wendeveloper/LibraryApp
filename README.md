@@ -1,5 +1,5 @@
-library application 
-When program runs:
+LibraryApp
+
 - Creates instance of LibraryApp.
 - LibraryApp initializes itself creating an instance of BookRepository.
 - BookRepository initializes itself instantiation an array list of books in the constructor.
@@ -14,8 +14,8 @@ When program runs:
   - Title
   - Genre
   - Author
-- Each search goes as follows: 
-- Main 
+- Each search goes as follows:
+- Main
 - to LibraryApp
 - to BookRepository
 - to Library App
