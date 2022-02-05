@@ -10,13 +10,13 @@ public class BookRepository {
     // constructor
     public BookRepository(){
         // construct a new book and add to array
-        books.add(new Book("83471","The Dead of Night", "Horror", null, "S.K.Eleton"));
-        books.add(new Book("25274","Castles and Crenellations", "Historical", null, "H.P. Anderson"));
-        books.add(new Book("51573","The Knight's Sword", "Fantasy", null, "F.E. Anvil"));
-        books.add(new Book("39662","Time of Night", "Romance", null, "A.U. Ring"));
-        books.add(new Book("40831","Castle Siege", "Historical", null, "N.N. Blacksmith"));
-        books.add(new Book("61522","Night and Day", "Mystery", null, "Q.Z. Bizar"));
-        books.add(new Book("86917","Never Time", "Thriller", null, "P.B. Jelliton"));
+        books.add(new Book("83471","The Dead of Night", "Horror", null, "S.K.Eleton", 10,7));
+        books.add(new Book("25274","Castles and Crenellations", "Historical", null, "H.P. Anderson",5,1));
+        books.add(new Book("51573","The Knight's Sword", "Fantasy", null, "F.E. Anvil",4,0));
+        books.add(new Book("39662","Time of Night", "Romance", null, "A.U. Ring",8,2));
+        books.add(new Book("40831","Castle Siege", "Historical", null, "N.N. Blacksmith",10,4));
+        books.add(new Book("61522","Night and Day", "Mystery", null, "Q.Z. Bizar",9,3));
+        books.add(new Book("06917","Never Time", "Thriller", null, "P.B. Jelliton",18,6));
     }
 
     public Book findByIsbn(String isbn){
